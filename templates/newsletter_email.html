@@ -1,0 +1,5 @@
+{% for response in prompt.responses %}
+<h3>{{ response.user.username }}'s Response:</h3>
+<p>{{ response.answer }}</p>
+<hr>
+{% endfor %}
